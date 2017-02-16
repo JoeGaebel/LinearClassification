@@ -16,5 +16,5 @@ function C = p12(competition_x)
     C = p7(W, competition_x);
 
     [train_err, ~] = p2(Ctrain, trueClass);
-    
+    fromMatrixToCVS(C,'classified_samples')
 end
