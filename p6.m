@@ -8,7 +8,7 @@ function w = p6(X, Y, iterNum, wInit, alpha)
     end
 
     function theSum = calculateSum()
-        C = w * Z;
+        C = Z * w;
         C = arrayfun(@(x) sigmoid(x), C);
         v = Y - C;
         V = repmat(v, 1, size(Z, 2));

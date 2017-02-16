@@ -34,19 +34,12 @@ X_new = [4 5; 1 3];
 
 kValues = [1, 3, 5, 7];
 
-%C = classifyKnn(X,Y,X_new,1)
-% C = classifyKnn(X_train_tiny,Y_train_tiny,X_test_tiny,1)
-% T = Y_test_tiny
-% [err,CONF] = p2(C,T)
-
 
 % 
 % C =
 % 
 %      3
 %      4
-
-% findErrorsForK(kValues, X, Y, X_test, Y_test)
-% errors = findErrorsForK(kValues, X_train, Y_train, X_test, Y_test)
+ %errors = findErrorsForK(kValues, X_train, Y_train, X_test, Y_test)
 C = p3(X_train, Y_train, X_test, 5);
-[~, CONF] = p2(C, Y_test)
+[err, CONF] = p2(C, Y_test)
