@@ -4,8 +4,15 @@ numberOfClasses = max(Y_train);
 numberOfColumns = size(X_train, 2) + 1;
 Winit = randn(numberOfClasses, numberOfColumns);
 W = p8(X_train, Y_train, iterNum, Winit, alpha);
-C = p7(W, X_test);
-[err, CONF] = p2(C, Y_test)
+Ctrain = p7(W, X_train);
+Ctest = p7(W, X_test);
+[train_err, ~] = p2(Ctrain, Y_train);
+[test_err, CONF] = p2(Ctest, Y_test);
+
+train_err
+test_err
+
+CONF
 
 % Error rate of Batch update
 

@@ -7,12 +7,16 @@ wInit = ones(size(X_out, 2) + 1, 1);
 a = 0.1;
 w = p6(X_out, Y_out, 30, wInit, alpha);
 
-% Generate classifications on test samples
-C = p4(w, X_test_out);
+% Generate classifications on test and train samples
+Ctrain = p4(w, X_out);
+Ctest = p4(w, X_test_out);
 
 % Get error rate
-[err, ~] = p2(C, Y_test_out);
-err
+[train_err, ~] = p2(Ctrain, Y_out);
+[test_err, ~] = p2(Ctest, Y_test_out);
+
+test_err
+train_err
 
 
 % Errors for randomly generated w
