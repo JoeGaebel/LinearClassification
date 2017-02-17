@@ -3,6 +3,8 @@ For this assignment, students were to teach a computer to recognize handwritten 
 
 More specifically, we were to implement linear classification algorithms in two and multiclass settings using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in Matlab.
 
+![](https://github.com/JoeGaebel/LinearClassification/blob/master/linear.png?raw=true)
+
 # Basic Premise
 Machine Learning with Linear Classification involves taking samples, determining features, and basically generating an equation of a line.
 This equation of a line, also known as a hyperplane, divides the classes of the samples so that new samples can be compared and classified. In order to generate an accurate hyperplane,
