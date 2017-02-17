@@ -18,7 +18,7 @@ The equations for generating these weights which are explored in this repo are a
 
 1. Randomly Generated - `randomizedWeightTrain.m`
   - This algorithm iteratively creates a weight vector at random, computes it's error, and stores the best scoring weight.
-  - Given our test set with two classes and 100, 1000, 10000, this algorithm had a best error rate at: `20.19%`
+  - Given our test set with two classes and 100, 1000, 10000 iterations, this algorithm had a best error rate at: `20.19%`
   
 2. Logistic Regression - `logisticRegressionWeightTrain.m`
   - This algorithm calculates loss of the classification by utilizing the sigmoid function, and does not penalize
