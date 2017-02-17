@@ -55,3 +55,7 @@ The equations for generating these weights which are explored in this repo are a
 1. get Matlab
 2. load `A1.mat`, which contains X_train, Y_train, X_test, Y_test
 3. `trainAndTest*.m`s are fun to play with
+
+
+# Thanks
+to Olga Veksler, for wonderfully teaching a great course and for creating the `.mat` files to train and test with.
