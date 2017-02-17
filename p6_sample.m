@@ -25,7 +25,7 @@ wInit = [ 1 ;1 ;1 ];
 alpha = 1;
 
 % 
- w = p6(X,Y,iterNum,wInit,alpha)
+ w = logisticRegressionWeightTrain(X,Y,iterNum,wInit,alpha)
 % 
 % 
 % w =

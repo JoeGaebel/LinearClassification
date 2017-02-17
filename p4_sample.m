@@ -17,7 +17,7 @@ w = [-2; 1; -3]
 %      1
 %     -3
 
-C = p4(w,X)
+C = twoClassLinearClassification(w,X)
 % 
 % C =
 % 

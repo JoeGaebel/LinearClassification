@@ -32,14 +32,11 @@ X_new = [4 5; 1 3];
 %      4     5
 %      1     3
 
-kValues = [1, 3, 5, 7];
-
-
 % 
 % C =
 % 
 %      3
 %      4
- %errors = findErrorsForK(kValues, X_train, Y_train, X_test, Y_test)
-C = p3(X_train, Y_train, X_test, 5);
-[err, CONF] = p2(C, Y_test)
+ 
+C = KNNClassifier(X_train, Y_train, X_test, 5);
+[err, CONF] = benchmarkClassification(C, Y_test);

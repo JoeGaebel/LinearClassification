@@ -36,7 +36,7 @@ Winit = [ 1 2 -1; 1 2 -1;1 1 -2; -1 2 1]
 %     -1     2     1
 
 
-W = p9(X,Y,iterNum,Winit,alpha)
+W = softmaxWeightTrain(X,Y,iterNum,Winit,alpha)
 % 
 % W =
 % 

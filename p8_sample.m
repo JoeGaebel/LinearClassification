@@ -36,7 +36,7 @@ Winit = [ 1 2 -1; 1 2 -1;1 1 -2; -1 2 1];
 %     -1     2     1
 
 
-W = p8(X,Y,iterNum,Winit,alpha)
+W = perceptronWeightTraining(X,Y,iterNum,Winit,alpha)
 
 % W =
 % 

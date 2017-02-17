@@ -40,4 +40,4 @@ T = [1; 1 ; 3; 1; 2; 1; 3; 3; 1];
 % 
 % 
 
-[err,CONF] = p2(C,T)
+[err,CONF] = benchmarkClassification(C,T)
