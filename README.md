@@ -51,3 +51,7 @@ The equations for generating these weights which are explored in this repo are a
 - `showImage.m` takes an example and displays it to the user
 - `findErrorsForK.m` runs KNN for a list of K's and test data
   
+# Setup
+1. get Matlab
+2. load `A1.mat`, which contains X_train, Y_train, X_test, Y_test
+3. `trainAndTest*.m`s are fun to play with
