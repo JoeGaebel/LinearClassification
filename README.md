@@ -57,5 +57,5 @@ The equations for generating these weights which are explored in this repo are a
 3. `trainAndTest*.m`s are fun to play with
 
 
-# Thanks
-to Olga Veksler, for wonderfully teaching a great course and for creating the `.mat` files to train and test with.
+# Спасибо
+Thanks to Olga Veksler, for wonderfully teaching a great course and for creating the `.mat` files to train and test with.
