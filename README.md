@@ -9,17 +9,17 @@ In this example, our samples were images of handwritten numbers 0 through 9 prov
 
 # Basic Premise
 ## Linear Classification
-![](https://github.com/JoeGaebel/MachineLearning/blob/master/linear.png?raw=true)
+![](https://github.com/JoeGaebel/MachineLearning/blob/master/linear.png?raw=true)<br>
 involves taking samples, determining features, and basically generating an equation of a line.
 This equation of a line, also known as a hyperplane, divides the classes of the samples so that new samples can be compared and classified. In order to generate an accurate hyperplane,
 a high number of training samples must be used. 
 
 ## K Nearest Neighbours
-![](https://github.com/JoeGaebel/MachineLearning/blob/master/KNN.png?raw=true)
+![](https://github.com/JoeGaebel/MachineLearning/blob/master/KNN.jpeg?raw=true)<br>
 involves taking samples, determining features, and comparing new samples to their closest similarity to the training samples.
 
 ## Neural Networks
-![](https://github.com/JoeGaebel/MachineLearning/blob/master/neural.png?raw=true)
+![](https://github.com/JoeGaebel/MachineLearning/blob/master/neural.jpeg?raw=true)<br>
 Modelled after neuron structures in the human brain, machine learning with neural networks involves creating layers of nerual units which have their own weights and interpret inputs
 
 # Algorithms Explored
