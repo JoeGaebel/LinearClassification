@@ -33,7 +33,7 @@ Y = [4; 1 ; 3; 2; 3; 3; 1; 4]
 
 H = [3, 2];
 regularizerWeight = 0.1;
-[net,valErr] = p10a(X,Y, H, regularizerWeight);
+[net,valErr] = trainNeuralNet(X,Y, H, regularizerWeight);
 
 valErr
 
@@ -62,7 +62,7 @@ Y_test = [4;1;3]
 %      1
 %      3
 
-[err,CONF] = p10b(X_test,Y_test,net)
+[err,CONF] = neuralNetClassify(X_test,Y_test,net)
 
 
 % err =
