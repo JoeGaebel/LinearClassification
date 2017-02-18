@@ -54,10 +54,11 @@ The equations for generating these weights which are explored in this repo are a
   - Given our test set with all classes, with K values of [1, 3, 5, 7], the best error rate was `7.90%`
   
   
-## Neural Networks - `neuralNetClassify`
+## Neural Networks - `neuralNetClassify.m`
   - Algorithm takes in how many hidden layers of neurons to train, as well as how many nodes within each layer
   - Additionally takes a regularizer weight
   - Uses Matlab's built in training and classification
+  - Given our test set with all classes, H of [100, 100] and a regularizer weight of 0,1, error rate was `3.50%`
   
 # Files
 - `pN_sample.m` files were used to help with the testing of the implementation of the algorithms
