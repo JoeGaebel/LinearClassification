@@ -20,7 +20,7 @@ involves taking samples, determining features, and comparing new samples to thei
 
 ## Neural Networks
 ![](https://github.com/JoeGaebel/MachineLearning/blob/master/neural.jpeg?raw=true)<br>
-Modelled after neuron structures in the human brain, machine learning with neural networks involves creating layers of nerual units which have their own weights and interpret inputs
+Modelled after neuron structures in the human brain, machine learning with neural networks involves creating layers of neural units which have their own weights and interpret inputs.
 
 # Algorithms Explored
 
